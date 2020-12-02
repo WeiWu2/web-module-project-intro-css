@@ -42,31 +42,36 @@ table {
 	border-spacing: 0;
 }
 .header-links{
-   
-    padding: 3%;
-    text-align: center;
+    width: 100%;
+    padding: auto;
+    text-align: center; 
 }
 .link{
-
-    padding: 20px;
+    display:inline-block;
+    padding: 2em;
     border-radius: 20%;
-    margin:10%;
-    text-decoration: none;
-    color:white;
+    margin:2em; 
 } 
 .plan-link{
+    text-decoration: none;
+    color:white;
     background-color: #FF764E;
 }
 .learn-link{
+    text-decoration: none;
+    color:white;
     background-color: #5ED3EB;
 }
 .get-link{
+    text-decoration: none;
+    color:white;
     background-color: #FFCD69;
 }
 .header-image-text{
     border: 1px solid black;
 }
 .header-img{
+    padding: 2%;
     border-radius: 50%;
     width: 15%;
 }
