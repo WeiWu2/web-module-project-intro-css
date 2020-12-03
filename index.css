@@ -46,6 +46,7 @@ table {
 html{
     font-family: 'Roboto Mono';
     font-size:1.3vw;
+   
 }
 .header-links{
     width: 100%;
@@ -69,7 +70,6 @@ html{
     background-color: #FFCD69;
 }
 .header-image-text{
-    
     display:block;
     bottom:100px;
 }
@@ -85,13 +85,41 @@ html{
     line-height: 1.5;
     margin: 3em;
     text-align: center;
-
 }
 h1{
     font-family: 'Chelsea Market';
     font-size:4vw;
-
 }
+
 .main-text{
+    display:inline-block;
     background-color:#DDB9A3;
+    color:white;
+    line-height: 1.5;
+    margin: 2em;
+    margin-left: 3em;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.main-image-text{
+    margin-left:35%;
+    width:25%;
+    text-align: center;
+}
+.main-image{
+    width:50%;
+}
+.bold{
+    font-weight:bold;
+}
+footer{
+    background-color:#F9E7DC;
+    margin-top:4em;
+}
+.footer-image{
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    margin:.4em;
+    height: 20em;
 }
