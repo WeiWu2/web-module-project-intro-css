@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,37 +43,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html{
+    font-family: 'Roboto Mono';
+    font-size:150%;
+}
 .header-links{
+
     width: 100%;
-    padding: auto;
     text-align: center; 
 }
 .link{
     display:inline-block;
-    padding: 2em;
+    padding: .8em 2em .8em 2em;
     border-radius: 20%;
-    margin:2em; 
+    margin:2% 10% 2% 10%; 
+    text-decoration: none;
+    color:white;
 } 
 .plan-link{
-    text-decoration: none;
-    color:white;
     background-color: #FF764E;
 }
-.learn-link{
-    text-decoration: none;
-    color:white;
+.learn-link{ 
     background-color: #5ED3EB;
 }
 .get-link{
-    text-decoration: none;
-    color:white;
     background-color: #FFCD69;
 }
 .header-image-text{
-    border: 1px solid black;
+    width: 100%;
+    display:block;
+    height:500px;
 }
-.header-img{
-    padding: 2%;
+.header-img {
+    float:left;
+    clear:left;
+    padding:2%;
+    margin-left: 4%;
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
+}
+.header-text{
+    line-height: 1.5;
+    width:auto;
+    right:2em;
+    margin: 3em;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Chelsea Market';
+    font-size:4em;
+
+}
+.main{
+
 }
